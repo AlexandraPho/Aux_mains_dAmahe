@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aux mains d'Amahé</title>
+    <link rel="stylesheet" href="dist/output.css">
+  </head>
+  <body>
+    <!--Header-->
+    <section class="bg-[url('/ressources/first1.jpeg')] relative md:bg-cover">
+
+      <!-- Navbar -->
+      <nav class="fixed top-0 left-0 right-0 z-20 bg-white p-4 w-full grid grid-cols-none shadow-md md:grid-cols-menu md:fixed md:mx-auto">
+        <div class="md:flex md:space-x-6 md:w-auto md:items-center md:justify-center">
+          <a href="#home" class="md:flex md:items-center">
+            <h1>
+              <span class="text-lg font-bold">Aux mains</span> 
+              <span class="text-lg ml-5 font-serif ">d'Amahé</span>
+            </h1>
+          </a>
+
+          <button class="icone-toggle bg-white rounded-md p-2 ring-1 ring-black ring-opacity-20 md:hidden">
+            <img src="ressources/menu.svg" alt="icône hamburger" class="h-6 w-6">
+          </button>
+        </div>
+        <ul class="toggle-menu hidden px-1 pt-6 bg-gray-50 flex flex-col md:flex md:bg-transparent md:pt-0 md:flex-row md:space-x-6 md:w-auto md:items-center md:justify-center">
+          <li class="py-2 text-center border-t border-gray-200 md:border-0">
+            <a 
+            href="#home"
+            class="font-medium text-base text-zinc-800 hover:text-gray-900"
+            >Accueil</a>
+          </li>
+
+          <li class="py-2 text-center border-t border-gray-200 md:border-0">
+            <a 
+            href="#presentation"
+            class="font-medium text-base text-zinc-800 hover:text-gray-900"
+            >A propos de moi</a>
+          </li>
+
+          <li class="py-2 text-center border-t border-gray-200 md:border-0">
+            <a 
+            href="#massages"
+            class="font-medium text-base text-zinc-800 hover:text-gray-900"
+            >Les massages</a>
+          </li>
+
+          <li class="py-2 text-center border-t border-gray-200 md:border-0">
+            <a 
+            href="#pricing"
+            class="font-medium text-base text-zinc-800 hover:text-gray-900"
+            >Les Tarifs</a>
+          </li>
+
+          <li class="py-2 text-center border-t border-b border-gray-200 md:border-0">
+            <a 
+            href="#contact"
+            class="font-medium text-base text-zinc-800 hover:text-gray-900"
+            >Contact</a>
+          </li>
+        </ul>
+        <div class="toggle-menu hidden flex justify-center items-center mt-6 md:mt-0 md:justify-end md:flex">
+          <a 
+          href="#contact"
+          class="text-sm shadow-md px-4 py-2 border font-medium rounded-md text-green-600 bg-white hover:bg-gray-50 text-center w-100"
+          >Prendre rendez-vous</a>
+        </div>
+      </nav>
+
+      <!-- Accueil -->
+      <div id="home" class="px-4 text-center pt-40 pb-56 sm:pb-80 md:pt-80">
+        <h1 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+          <span class="text-white block xl:inline">Aux mains d'Amahé</span>
+        </h1>
+        <p class="text-white mt-3 max-w-sm mx-auto text-gray-700 sm:text-lg md:mt-5 md:text-xl md:max-w-2xl lg:max-w-3xl">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus totam harum fugit est ipsam quia?Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+        </p>
+        <div class="mt-10 max-w-md mx-auto flex justify-center items-center flex-col space-y-5 sm:space-y-0 sm:flex-row md:mt-8">
+          <a
+          href="#massages"
+          class="min-w-[250px] rounded-md shadow px-8 py-3 text-sm  font-medium text-green-700 ring-1 ring-gray-200 bg-white   hover:bg-gray-50 sm:text-base md:py-4 md:min-w-fit md:text-lg md:px-10">
+          Les massages</a>
+        </div>
+      </div>
+      <div class="absolute bottom-4 left-1/2 -translate-x-1/2 md:bottom-10">
+        <a href="#presentation" class="animate-bounce bg-white p-2 w-12 h-12 ring-1 ring-slate-900/5 shadow-lg rounded-full flex items-center justify-center sm:w-16 sm:h-16">
+          <svg class="w-6 h-6 text-green-700 sm:w-8 h-8" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+            <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- Section about me -->
+    <section id="presentation" class="cta-striper-bg flex justify-center md:flex-wrap">
+      <div class="object-cover h-54 w-96 px-10 pb-16 pt-10 w-full order-2 text-center md:mt-8 md:py-32 lg:w-1/2 lg:order-1">
+
+        <h2 class="font-extrabold text-gray-800 text-2xl sm:text-3xl md:text-5xl">
+          <span class="block">Qui suis-je ?</span>
+        </h2>
+        <p class="mt-3 text-md mx-auto text-gray-800 max-w-xs sm:text-xl md:mt-4 md:max-w-md">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, impedit.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+        </p>
+
+      </div>
+
+      <div class="object-cover h-54 w-96 px-10 pb-16 pt-10 w-full order-2 text-center md:py-32 lg:w-1/2 lg:order-2">
+        <img src="ressources/portrait.jpeg" alt="portrait" class="ml-4 object-cover h-54 w-96 ">
+      </div>
+
+    </section>
+
+    <!-- Section massage  -->
+
+    <section id="massages">
+       <div class="">
+        <div class="max-w-4xl mx-auto py-16 px-4 sm:py-20 sm:px-6 lg:px-2">
+          <h2 class="text-4xl tracking-tight font-extrabold text-gray-900 text-center md:text-5xl">
+            Trouver votre massage
+          </h2>
+          <!--card massage-->
+          <div class="">
+            <div class="mt-8">
+              <div class="shadow-md ring-2 ring-green-300 w-56 border border-green-500 rounded-lg mt-5 px-6 py-4 text-left">
+                <div class="mt-5">
+                  <h2 class="mb-5 text-2xl font-bold text-green-900">Massage Étoile</h2>
+                  <p class="text-md text-gray-800">Appaisement et profonde relaxation par la stimulation des zones réflexes des cinq extrémités du corps (tête, mains, pieds).</p>
+                </div>
+            </div>
+            </div>
+            <div class="mt-8 ">
+              <div class="shadow-md ring-2 ring-zinc-300 border border-gray-200 rounded-lg mt-5 px-6 py-4 text-left">
+                <div class="mt-5">
+                  <h2 class="mb-5 text-2xl font-bold text-gray-900">Ayurvédique</h2>
+                  <p class="text-md text-gray-800">Relaxation profonde, permet de relâcher les tensions nerveuses et musculaires qui entravent la libre circulation de l'énergie dans le corps.</p>
+                </div>
+            </div>
+            </div>
+            <div class="mt-8">
+              <div class="shadow-md ring-2 ring-zinc-300 border border-gray-200 rounded-lg mt-5 px-6 py-4 text-left">
+                <div class="mt-5">
+                  <h2 class="mb-5 text-2xl font-bold text-gray-900">Suedois</h2>
+                  <p class="text-md text-gray-800">Détend et relaxe le corps comme l’esprit. Particulièrement apaisant, il est apprécié pour sa capacité à diminuer les effets du stress sur le corps.</p>
+                </div>
+            </div>
+            </div>
+            <div class="mt-8">
+              <div class="shadow-md ring-2 ring-zinc-300 border border-gray-200 rounded-lg mt-5 px-6 py-4 text-left">
+                <div class="mt-5">
+                  <h2 class="mb-5 text-2xl font-bold text-gray-900">shiatsu</h2>
+                  <p class="text-md text-gray-800">Étirements et pressions sur certains points de façon à faciliter la libre circulation de l'énergie.</p>
+                </div>
+            </div>
+            </div>
+            <div class="mt-8">
+              <div class="shadow-md ring-2 ring-zinc-300 border border-gray-200 rounded-lg mt-5 px-6 py-4 text-left">
+                <div class="mt-5">
+                  <h2 class="mb-5 text-2xl font-bold text-gray-900">Balinais</h2>
+                  <p class="text-md text-gray-800">Harmonise différentes techniques à la fois relaxantes et énergétiques, douces et toniques. Il apporte ainsi une parfaite harmonie entre le corps et l’esprit.</p>
+                </div>
+            </div>
+            </div>
+            <div class="mt-8 ">
+              <div class="shadow-md ring-2 ring-zinc-300 border border-gray-200 rounded-lg mt-5 px-6 py-4 text-left">
+                <div class="mt-5">
+                  <h2 class="mb-5 text-2xl font-bold text-gray-900">Réflexologie plantaire douce</h2>
+                  <p class="text-md text-gray-800">Relaxation profonde, bien-être global tant sur le plan physique que psychique et permet de relâcher les tensions.</p>
+                </div>
+            </div>
+          </div>
+        </section>
+
+    <!-- Section pricing -->
+    <section id="pricing">
+      <div class="mt-8 flex flex-wrap justify-center items-center flex-col space-x-0 md:space-x-10 md:flex">
+        <h1 class="text-5xl font-extrabold text-gray-900">Les tarifs </h1>
+        <hr class="mt-5 w-1/4 mx-auto" />
+        <p class="mt-5 mb-5 text-xl text-black-800">
+          Le temps qui me fait plaisir
+        </p>
+        <div class="mt-8 flex flex-wrap justify-center items-center flex-col space-x-0 md:space-x-10 md:flex-row">
+          <div class="flex flex-col max-w-sm min-h-[450px] shadow-md  ring-1 ring-zinc-300 w-72 h-full border border-gray-200 rounded-lg mt-5 px-6 py-4 text-left">
+            <div class="mt-5">
+              <h2 class="mb-5 text-2xl font-bold text-gray-900">Le temps d'un massage</h2>
+              <p class="text-md text-gray-800">Massage étoile</p>
+              <p class="text-md text-gray-800">Californien</p>
+              <p class="text-md text-gray-800">Ayurvédique</p>
+              <p class="text-md text-gray-800">Californien</p>
+              <p class="text-md text-gray-800">Balinais</p>
+              <p class="text-md text-gray-800">Suedois</p>
+              <p class="text-md text-gray-800">Shiatsu</p>
+              <p class="text-md text-gray-800">Réflexologie plantaire douce</p>
+              <p class="mt-2">
+                <span class="text-2xl font-extralight text-gray-700">60 minutes de massage</span>
+                <span class="text-4xl font-extrabold text-gray-900">65€ </span>
+              </p>
+            </div>
+            <div class="mt-5">
+              <p class="mt-2">
+                <span class="text-2xl font-extralight text-gray-700">90 minutes de massage</span>
+                <span class="text-4xl font-extrabold text-gray-900">95€ </span>
+              </p>
+            </div>
+          </div>
+        </div>
+   
+  <!--forfaits-->
+      <div class="mt-8 flex flex-wrap justify-center items-center flex-col space-x-0 md:space-x-10 md:flex-row">
+        <div class="flex flex-col max-w-sm min-h-[450px] shadow-md  ring-1 ring-zinc-300 w-72 h-full border border-gray-200 rounded-lg mt-5 px-6 py-4 text-left">
+          <div class="mt-5">
+            <h2 class="mb-5 text-2xl font-bold text-gray-900">Le forfaits bien-être *</h2>
+            <p class="text-md text-gray-800">Le forfait Découverte</p>
+            <p class="text-md text-gray-800">3 massages d'une heure</p>
+            <p class="mt-2">
+              <span class="text-4xl font-extrabold text-gray-900">165€ </span>
+              <span class="text-2xl font-extralight text-gray-700">au lieu de 195€</span>
+              <span class="text-4l font-extralight text-gray-700">Valable 6 mois à partir de la date de souscription</span>
+            </p>
+          </div>
+          <div class="mt-5">
+            <h2 class="mb-5 text-2xl font-bold text-gray-900">Le forfaits bien-être</h2>
+            <p class="text-md text-gray-800">Le forfait Détente</p>
+            <p class="text-md text-gray-800">5 massages d'une heure</p>
+            <p class="mt-2">
+              <span class="text-4xl font-extrabold text-gray-900">275€ </span>
+              <span class="text-2xl font-extralight text-gray-700">au lieu de 325€</span>
+              <span class="text-4l font-extralight text-gray-700">Valable 8 mois à partir de la date de souscription</span>
+            </p>
+            <div>
+              <p class="mt-5">* À vous de combiner les massages que vous souhaitez</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-8 flex flex-wrap justify-center items-center flex-col space-x-0 md:space-x-10 md:flex-row">
+      <div class="flex flex-col max-w-sm min-h-[450px] shadow-md  ring-1 ring-zinc-300 w-72 h-full border border-gray-200 rounded-lg mt-5 px-6 py-4 text-left">
+        <div class="mt-5">
+          <h2 class="mb-5 text-2xl font-bold text-gray-900">Vous avez peu de temps ou bien vous souhaitez privilégiez juste une zone.
+       <br>Je vous propose un massage adapté à vos besoins.
+          </h2>
+          <p class="text-md text-gray-800">A vous de choisir le temps que vous souhaitez vous accorder pour votre moment bien-être et la zone que vous souhaitez privilégier.</p>
+          <p class="mt-2">
+            <h3 class="mt-5 text-xs font-medium text-gray-900 tracking-wide uppercase" >
+              20 minutes
+            </h3>
+            <span class="text-4xl font-extrabold text-gray-900">25€</span>
+          </p>
+          <p class="mt-2">
+            <h3 class="mt-5 text-xs font-medium text-gray-900 tracking-wide uppercase">
+              30 minutes
+            </h3>
+            <span class="text-4xl font-extrabold text-gray-900">35€</span>
+          </p>
+          <p class="mt-2">
+            <h3 class="mt-5 text-xs font-medium text-gray-900 tracking-wide uppercase">
+              45 minutes
+            </h3>
+            <span class="text-4xl font-extrabold text-gray-900">45€</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Bandeau bleu -->
+<!--
+<section class="bg-gradient-to-r from-blue-700 to-blue-500 py-12 px-4 text-center sm:py-16 sm:px-6 lg:px-8 lg:py-20">
+  <h2 class="text-3xl font-extrabold text-white md:text-5xl">
+    Ils me font confiance
+  <p class="mt-3 px-4 text-md text-indigo-200 max-w-md mx-auto sm:text-xl sm:mt-4 md:max-w-lg">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, et?
+  </p>
+
+  <div class="flex justify-center items-center mt-10 flex-col space-y-10 sm:space-y-0 sm:space-x-10 sm:flex-row">
+
+    <div class="flex flex-col justify-center items-center">
+      <p class="text-4xl font-extrabold text-white md:text-5xl">100%</p>
+      <p class="mt-2 text-lg font-medium text-indigo-200">En ligne</p>
+    </div>
+
+    <div class="flex flex-col justify-center items-center">
+      <p class="text-4xl font-extrabold text-white md:text-5xl">24/7</p>
+      <p class="mt-2 text-lg font-medium text-indigo-200">Support</p>
+    </div>
+
+    <div class="flex flex-col justify-center items-center">
+      <p class="text-4xl font-extrabold text-white md:text-5xl">100K+</p>
+      <p class="mt-2 text-lg font-medium text-indigo-200">Projets</p>
+    </div>
+  </div>
+</section>
+-->
+
+    <!-- Section formulaire -->
+    <section id="contact" class="mt-10 bg-gray-50 pb-32 md:pb-40">
+      <h2 class="text-center font-medium pt-10 pb-6 text-3xl md:text-4xl">
+        Rentrons en contact
+      </h2>
+      <hr class="bloc mx-auto bg-gray-600 h-1 mb-10 w-44">
+      <!--Form-->
+      <form class="space-y-6 relative bg-white max-w-3xl mx-auto py-16 px-4 sm:px-6 lg:px-8 xl pl-12">
+        <div>
+          <label for="nom" class="text-gray-500 mb-2 block">Nom complet</label>
+          <input type="text" id="nom" placeholder="Votre nom" class="block w-full ring-1 ring-gray-200 shadow-sm py-3 px-4 placeholder-gray-500 border-gray-300 rounded-md">
+        </div>
+
+        <div>
+          <label for="prenom" class="text-gray-500 mb-2 block">Prénom</label>
+          <input type="text" id="prenom" placeholder="Votre nom" class="block w-full ring-1 ring-gray-200 shadow-sm py-3 px-4 placeholder-gray-500 border-gray-300 rounded-md">
+        </div>
+
+        <div>
+          <label for="message" class="text-gray-500 mb-2 block">Votre message</label>
+          <textarea type="text" id="message" placeholder="Votre nom" class="block w-full ring-1 ring-gray-200 shadow-sm py-3 px-4 placeholder-gray-500 border-gray-300 rounded-md"></textarea>
+        </div>
+
+        <button class="py-3 px-6 border-transparent shadow-sm text-base font-medium rounded-md text-white bg-blue-700">Envoyer</button>
+      </form>
+    </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-500 py-5">
+    <h3 class="text-3xl pb-5 text-center text-white">Retrouvez-moi ici</h3>
+    <div class="mb-5 flex space-x-6 justify-center text-white">
+      <a href="#">
+        <img src="ressources/fb.svg" alt="icône fb" class="w-6">
+      </a>
+      <a href="#">
+        <img src="ressources/instagram.svg" alt="icône instagram" class="w-6">
+      </a>
+    </div>
+      <hr class="w-36 mx-auto mb-5">
+      <p class="text-center mt-8 text-base text-gray-400 md:mt-0">&copy; 2023 Alexandra Pinheiro, TOUS DROITS RÉSERVÉS</p>
+  </footer>
+
+    <!--Script JS-->
+    <script src="app.js"></script>
+
+  </body>
+</html>

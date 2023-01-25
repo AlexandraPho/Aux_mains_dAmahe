@@ -1,3 +1,3 @@
 # Aux mains d'Amahe
-This repository show a webdsite for massage.
+This repository show a website for massage.
 <img src="docs/logo.jpg">
